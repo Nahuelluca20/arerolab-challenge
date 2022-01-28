@@ -33,18 +33,6 @@
         "argsIgnorePattern": "^_.*?$"
       }
     ],
-    "prettier/prettier": [
-      "error",
-      {
-        "printWidth": 100,
-        "trailingComma": "all",
-        "tabWidth": 2,
-        "semi": true,
-        "singleQuote": false,
-        "bracketSpacing": false,
-        "arrowParens": "always"
-      }
-    ],
     "import/order": [
       "warn",
       {
@@ -55,6 +43,19 @@
             "group": "parent"
           }
         ]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "printWidth": 100,
+        "trailingComma": "all",
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": false,
+        "bracketSpacing": false,
+        "arrowParens": "always"
       }
     ],
     "react/prop-types": "off",
